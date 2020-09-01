@@ -30,7 +30,7 @@ prepare:
 	@mkdir -pv $(BUILD_DIR_LIB)
 
 build: prepare
-	$(GO_BUILD) -o $(BUILD_DIR_BIN)/app ./cmd/app
+	$(GO_BUILD) -o $(BUILD_DIR_BIN)/greeting ./cmd/greeting
 
 test: prepare
 	$(GO_VET) ./...
