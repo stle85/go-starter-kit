@@ -55,6 +55,7 @@ Available command list.
 ├── testdata                    # Test data files.
 ├── go.mod                      # Defines the module’s module path and its dependency requirements.
 ├── go.sum                      # Contains cryptographic hashes of its dependency requirements.
+├── deps.go                     # Prevents removing additional dependencies from go.mod and go.sum file.
 └── Makefile                    # Project build Makefile.
 ```
 
