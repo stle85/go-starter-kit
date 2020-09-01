@@ -1,4 +1,4 @@
-module github.com/serenissimus/go-starter-kit
+module go-starter-kit
 
 go 1.14
 

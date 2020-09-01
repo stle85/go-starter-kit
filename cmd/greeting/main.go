@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/serenissimus/go-starter-kit/pkg/utils"
+	"go-starter-kit/pkg/utils"
 )
 
 func main() {
