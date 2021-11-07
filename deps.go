@@ -1,3 +1,4 @@
+//go:build dependencies
 // +build dependencies
 
 package deps
@@ -5,5 +6,4 @@ package deps
 // For additional dependencies.
 // It prevents removing dependencies from go.mod and go.sum files.
 
-import (
-)
+import ()
